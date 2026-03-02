@@ -1,5 +1,15 @@
-edad=41
+edad=16
 if edad>=18 :
-    print("es mayor de edad")
+    print("eres mayor de edad")
 else: 
-    print ("es menor de edad")
+    print ("eres menor de edad")
+
+#bucle 
+
+for i in range (5):
+    print("vete de acá")
+
+
+
+
+
