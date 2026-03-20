@@ -8,6 +8,7 @@ print(estudiantes)
 estudiantes.append("Xavi")
 print(estudiantes)
 estudiantes.append("Liana")
+print(estudiantes)
 
 # Obtener la cantidad de estudiantes 
 print(len(estudiantes))  #4
