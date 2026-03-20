@@ -1,0 +1,21 @@
+estudiantes = ["Juan", "Maria", "Paula", "Marcosa", "Laura", "shayla", "Valery"]
+
+# gerar un nuevo estudiante al final
+estudiantes.append("Juan Gon.")
+print(estudiantes)  #['Juan', 'Maria', 'Paula', 'Marcos']
+estudiantes.append("Sergio")
+print(estudiantes)
+estudiantes.append("Xavi")
+print(estudiantes)
+estudiantes.append("Liana")
+
+# Obtener la cantidad de estudiantes 
+print(len(estudiantes))  #4
+
+# Buscar si un estudiante esta en la lista 
+if "Maria" in estudiantes:
+    print("Maria esta en la lista")
+    
+# Eliminar un estudiane por nombre
+estudiantes.remove("Juan")
+print(estudiantes) # ['Jaun', 'Maria', 'Paula']
